@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		84927DB52EB9ED3300F27546 /* MyAnimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84927DB52EB9ED3300F27546 /* MyAnimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MyAnimeCollection.app; path = "/Users/bora/Desktop/MyAnimeCollection/build/Debug-iphoneos/MyAnimeCollection.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		84927DB72EB9ED3300F27546 /* MyAnimeCollection */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MyAnimeCollection;
+			sourceTree = "<group>";
+		};
+		84927DDF2EBA437100F27546 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +38,8 @@
 			isa = PBXGroup;
 			children = (
 				84927DB72EB9ED3300F27546 /* MyAnimeCollection */,
-				84927DB62EB9ED3300F27546 /* Products */,
+				84927DDF2EBA437100F27546 /* Services */,
 			);
-			sourceTree = "<group>";
-		};
-		84927DB62EB9ED3300F27546 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84927DB52EB9ED3300F27546 /* MyAnimeCollection.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +59,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				84927DB72EB9ED3300F27546 /* MyAnimeCollection */,
+				84927DDF2EBA437100F27546 /* Services */,
 			);
 			name = MyAnimeCollection;
 			packageProductDependencies = (
@@ -95,7 +93,7 @@
 			mainGroup = 84927DAC2EB9ED3300F27546;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 84927DB62EB9ED3300F27546 /* Products */;
+			productRefGroup = 84927DAC2EB9ED3300F27546;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
