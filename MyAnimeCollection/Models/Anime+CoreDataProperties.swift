@@ -17,7 +17,8 @@ extension Anime {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Anime> {
         return NSFetchRequest<Anime>(entityName: "Anime")
     }
-
+    
+    @NSManaged public var malId: Int32
     @NSManaged public var name: String?
     @NSManaged public var totalEpisodes: Int16
     @NSManaged public var releaseDate: Date?

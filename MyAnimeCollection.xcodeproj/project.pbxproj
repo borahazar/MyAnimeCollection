@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		84927DB52EB9ED3300F27546 /* MyAnimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MyAnimeCollection.app; path = "/Users/bora/Desktop/MyAnimeCollection/build/Debug-iphoneos/MyAnimeCollection.app"; sourceTree = "<absolute>"; };
+		84026BEA2EBA7FD500D3CDE8 /* MyAnimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		84927DB72EB9ED3300F27546 /* MyAnimeCollection */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MyAnimeCollection;
-			sourceTree = "<group>";
-		};
-		84927DDF2EBA437100F27546 /* Services */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -38,7 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				84927DB72EB9ED3300F27546 /* MyAnimeCollection */,
-				84927DDF2EBA437100F27546 /* Services */,
+				84026BEA2EBA7FD500D3CDE8 /* MyAnimeCollection.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,13 +54,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				84927DB72EB9ED3300F27546 /* MyAnimeCollection */,
-				84927DDF2EBA437100F27546 /* Services */,
 			);
 			name = MyAnimeCollection;
 			packageProductDependencies = (
 			);
 			productName = MyAnimeCollection;
-			productReference = 84927DB52EB9ED3300F27546 /* MyAnimeCollection.app */;
+			productReference = 84026BEA2EBA7FD500D3CDE8 /* MyAnimeCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
